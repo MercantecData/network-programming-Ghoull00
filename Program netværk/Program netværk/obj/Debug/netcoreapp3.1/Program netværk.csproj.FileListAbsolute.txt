@@ -1,0 +1,13 @@
+C:\Users\Jesper Kjærgaard\Desktop\Programet\Program netværk\Program netværk\bin\Debug\netcoreapp3.1\Program netværk.exe
+C:\Users\Jesper Kjærgaard\Desktop\Programet\Program netværk\Program netværk\bin\Debug\netcoreapp3.1\Program netværk.deps.json
+C:\Users\Jesper Kjærgaard\Desktop\Programet\Program netværk\Program netværk\bin\Debug\netcoreapp3.1\Program netværk.runtimeconfig.json
+C:\Users\Jesper Kjærgaard\Desktop\Programet\Program netværk\Program netværk\bin\Debug\netcoreapp3.1\Program netværk.runtimeconfig.dev.json
+C:\Users\Jesper Kjærgaard\Desktop\Programet\Program netværk\Program netværk\bin\Debug\netcoreapp3.1\Program netværk.dll
+C:\Users\Jesper Kjærgaard\Desktop\Programet\Program netværk\Program netværk\bin\Debug\netcoreapp3.1\Program netværk.pdb
+C:\Users\Jesper Kjærgaard\Desktop\Programet\Program netværk\Program netværk\obj\Debug\netcoreapp3.1\Program netværk.csprojAssemblyReference.cache
+C:\Users\Jesper Kjærgaard\Desktop\Programet\Program netværk\Program netværk\obj\Debug\netcoreapp3.1\Program netværk.AssemblyInfoInputs.cache
+C:\Users\Jesper Kjærgaard\Desktop\Programet\Program netværk\Program netværk\obj\Debug\netcoreapp3.1\Program netværk.AssemblyInfo.cs
+C:\Users\Jesper Kjærgaard\Desktop\Programet\Program netværk\Program netværk\obj\Debug\netcoreapp3.1\Program netværk.csproj.CoreCompileInputs.cache
+C:\Users\Jesper Kjærgaard\Desktop\Programet\Program netværk\Program netværk\obj\Debug\netcoreapp3.1\Program netværk.dll
+C:\Users\Jesper Kjærgaard\Desktop\Programet\Program netværk\Program netværk\obj\Debug\netcoreapp3.1\Program netværk.pdb
+C:\Users\Jesper Kjærgaard\Desktop\Programet\Program netværk\Program netværk\obj\Debug\netcoreapp3.1\Program netværk.genruntimeconfig.cache

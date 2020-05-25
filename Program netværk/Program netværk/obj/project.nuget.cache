@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fmSCxEBfwC7ddYNXmceoMWSnNfDXAOiG8lMNswHq9n76BF/FW10C4a0el1pkTHzlePgPxgTIWKNiCDzSdv5/5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jesper Kjærgaard\\Desktop\\Programet\\Program netværk\\Program netværk\\Program netværk.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jesper Kjærgaard\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
