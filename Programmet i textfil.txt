@@ -1,0 +1,22 @@
+
+String text = "Håber du okay"
+
+
+Byte[] byte = Encoding.Ascll.GetBytes(text)
+
+foreatch(byte b in Byte){
+Console.Writeline(b)
+}
+
+Byte[] byte = Encoding.UTF8.GetBytes(text)
+
+foreatch(byte b in Byte){
+Console.Writeline(b)
+}
+
+
+string convert1 = Byte[] byte = Encoding.Ascll.GetBytes(text)
+Console.Writeline(text);
+
+string convert2 = Byte[] byte = Encoding.UTF8.GetBytes(text)´
+Console.Writeline(text);
