@@ -1,0 +1,13 @@
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Server async\Server async\bin\Debug\netcoreapp3.1\Server async.exe
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Server async\Server async\bin\Debug\netcoreapp3.1\Server async.deps.json
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Server async\Server async\bin\Debug\netcoreapp3.1\Server async.runtimeconfig.json
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Server async\Server async\bin\Debug\netcoreapp3.1\Server async.runtimeconfig.dev.json
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Server async\Server async\bin\Debug\netcoreapp3.1\Server async.dll
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Server async\Server async\bin\Debug\netcoreapp3.1\Server async.pdb
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Server async\Server async\obj\Debug\netcoreapp3.1\Server async.csprojAssemblyReference.cache
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Server async\Server async\obj\Debug\netcoreapp3.1\Server async.AssemblyInfoInputs.cache
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Server async\Server async\obj\Debug\netcoreapp3.1\Server async.AssemblyInfo.cs
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Server async\Server async\obj\Debug\netcoreapp3.1\Server async.csproj.CoreCompileInputs.cache
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Server async\Server async\obj\Debug\netcoreapp3.1\Server async.dll
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Server async\Server async\obj\Debug\netcoreapp3.1\Server async.pdb
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Server async\Server async\obj\Debug\netcoreapp3.1\Server async.genruntimeconfig.cache

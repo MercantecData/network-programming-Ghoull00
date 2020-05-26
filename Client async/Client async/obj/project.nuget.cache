@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fn7U32XLh5kL7fA0K4ewk7rZefa3s6PGERqwPsVaxoiI1ovp59WnMMHOIW20W6KjuGInkKh0iBYGFlUlC8SglA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jesper Kjærgaard\\Desktop\\EUD\\GitKraken nætværk\\Programet\\Client async\\Client async\\Client async.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jesper Kjærgaard\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
