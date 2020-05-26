@@ -1,0 +1,13 @@
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Client og server\Client og server\bin\Debug\netcoreapp3.1\Client og server.exe
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Client og server\Client og server\bin\Debug\netcoreapp3.1\Client og server.deps.json
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Client og server\Client og server\bin\Debug\netcoreapp3.1\Client og server.runtimeconfig.json
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Client og server\Client og server\bin\Debug\netcoreapp3.1\Client og server.runtimeconfig.dev.json
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Client og server\Client og server\bin\Debug\netcoreapp3.1\Client og server.dll
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Client og server\Client og server\bin\Debug\netcoreapp3.1\Client og server.pdb
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Client og server\Client og server\obj\Debug\netcoreapp3.1\Client og server.csprojAssemblyReference.cache
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Client og server\Client og server\obj\Debug\netcoreapp3.1\Client og server.AssemblyInfoInputs.cache
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Client og server\Client og server\obj\Debug\netcoreapp3.1\Client og server.AssemblyInfo.cs
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Client og server\Client og server\obj\Debug\netcoreapp3.1\Client og server.csproj.CoreCompileInputs.cache
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Client og server\Client og server\obj\Debug\netcoreapp3.1\Client og server.dll
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Client og server\Client og server\obj\Debug\netcoreapp3.1\Client og server.pdb
+C:\Users\Jesper Kjærgaard\Desktop\EUD\GitKraken nætværk\Programet\Client og server\Client og server\obj\Debug\netcoreapp3.1\Client og server.genruntimeconfig.cache
