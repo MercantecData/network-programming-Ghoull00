@@ -20,8 +20,8 @@ namespace Client_og_server_Async
             NetworkStream stream = client.GetStream();
             ReciveMeseege(stream);
 
-            // Her skriver vi en besked som bliver sent til stream.read ved ser
-            Console.WriteLine("Du kan begynde at skrive en besked");
+            // Her skriver vi en besked som bliver sent til stream.read ved serveren
+            Console.WriteLine("Skriv dit navn så bagefter begynd at skrive en besked");
             while (true)
             {
                 string Besked = Console.ReadLine();

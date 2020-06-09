@@ -6,7 +6,6 @@ using System.Net.Sockets;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using System.Security.Cryptography;
-using System.Diagnostics.SymbolStore;
 using System.Runtime.InteropServices.ComTypes;
 using System.Threading;
 using System.Globalization;
@@ -28,6 +27,7 @@ namespace Client_og_server_Async
 
     class Server
     {
+        bool valg = true;
         bool Spil = true;
         bool Teskst = true;
         bool Teskst1 = true;
@@ -38,18 +38,27 @@ namespace Client_og_server_Async
         {
             Console.WriteLine("Skriv 'spil' eller 'tekst'");
             string ok = Console.ReadLine();
-            if (ok == "spil")
-            {
-                Spil = true;
-                Teskst = false;
-                Teskst1 = false;
 
-            }
-            else if (ok == "tekst")
+            while(valg)
             {
-                Teskst = true;
-                Spil = false;
-                Teskst1 = true;
+                if (ok == "spil")
+                {
+                    Spil = true;
+                    Teskst = false;
+                    Teskst1 = false;
+                    valg = false;
+                }
+                else if (ok == "tekst")
+                {
+                    Spil = false;
+                    Teskst = true;
+                    Teskst1 = true;
+                    valg = false;
+                }
+                else
+                {
+                    Console.WriteLine("Skriv 'spil' eller 'tekst'");
+                }
             }
 
             // Opretter en server 
@@ -72,15 +81,13 @@ namespace Client_og_server_Async
                 foreach (Brugernavn brugernavn in clients)
                 {
                     brugernavn.client.GetStream().Write(bytes, 0, bytes.Length);
-                }
-               
+                } 
             }
         }
 
         // Her viller serveren høre efter hvis der er clienter der joiner serveren
         public async void AcceptClient(TcpListener listener)
         {
-
             Console.WriteLine("Venter på client");
             byte[] bytes = new byte[256];
             while (true)
@@ -107,28 +114,39 @@ namespace Client_og_server_Async
             int Randomnumber = random.Next(0, 100);
             Console.WriteLine(Randomnumber);
 
-            // Her er loobet for når man ville have servern til at køre en chat HUSK AT SLÅ ANTIVIRUS FRA DIN ABE
+            // Her er loobet for når man ville have servern til at køre en chat HUSK AT SLÅ ANTIVIRUS FRA
             while (Teskst)
             {
                 int BeskedeSendt = await stream.ReadAsync(buffer, 0, buffer.Length);
                 string text = Encoding.UTF8.GetString(buffer, 0, BeskedeSendt);
-               
-                if (Teskst == true)
+                
+                if (text.Contains("skift"))
                 {
-                    byte[] bytte = Encoding.UTF8.GetBytes(navn + ": " + text);
+                    Console.WriteLine("skiv dit nye navn");
+                    string[] newname = text.Split("/");
+
+                    foreach (Brugernavn brugernavnen in clients)
+                    {
+                        if (brugernavnen.brugernavn == navn)
+                        {
+                            //brugernavnen.brugernavn = newname[1];
+                            navn = newname[1];
+                            Console.WriteLine(newname[1]);
+                        }
+                    }
+                     
+                }
+                else
+                {
+                    byte[] bytte = Encoding.UTF8.GetBytes(navn + ": " + text + "\n");
                     foreach (Brugernavn brugernavn in clients)
                     {
                         brugernavn.client.GetStream().Write(bytte, 0, bytte.Length);
                     }
                     Console.WriteLine(navn + ": " + text);
+                }
 
-                }
-                else
-                {
-                    Console.WriteLine(text);
-                }
-                
-                byte[] bytes = Encoding.UTF8.GetBytes(text + "\n");
+                //byte[] bytes = Encoding.UTF8.GetBytes(text);
                
             }
             // Her er while loobet der ville køre når man starter serveren og vælger hvad der skal starte op

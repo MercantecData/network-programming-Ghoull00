@@ -9,28 +9,32 @@ namespace Client_og_server_Async
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Client eller Server");
-            
+            Console.WriteLine("Client, UDPClient eller Server");
 
             while (true)
             {
                 string choice = Console.ReadLine();
                 if (choice == "Client")
                 {
-                    Client client = new Client();
+                 
+                   Client client = new Client();
                 }
+
+                else if (choice == "UDPClient")
+                {
+                    UDP_Client UDPclient = new UDP_Client();
+                }
+
                 else if (choice == "Server")
                 {
                     Server server = new Server();
                 }
+
                 else
                 {
-                    Console.WriteLine("Client eller Server");
+                    Console.WriteLine("Client, UDPClient eller Server");
                 }
             }
-          
-
-            
         }
     }
 }
